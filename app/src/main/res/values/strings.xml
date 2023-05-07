@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">BWFProjectRakha</string>
+    <string name="splashText">Rekomendasi Raket by RakhaProject</string>
+    <string name="menu">About Me</string>
+    <string name="nama_datadiri">Nama : </string>
+    <string name="nama_datadiri_value">Rakha Satria Pratama</string>
+    <string name="email_datadiri">Email  : </string>
+    <string name="email_datadiri_value"> rakhasatria@student.telkomuniversity.ac.id</string>
+    <string name="cardJenis">RAKET XXXX XXXX XXXX</string>
+    <string name="harga_cardview">Rp xxx.xxx.xxx</string>
+    <string name="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores inventore labore quod recusandae sed tenetur ullam ut vel? Ab delectus deserunt ex hic illum incidunt obcaecati porro quidem ratione sequi! ?</string>
+    <string name="descDetail">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem est illo impedit non sapiente! Assumenda beatae consectetur error illum magnam maxime minus, nesciunt nihil nulla quos, reiciendis temporibus veniam veritatis.</string>
+    <string name="descDataDiri">Perkenalkan nama saya Rakha Satria Pratama, Saya berasal dari
+    bandung Jawa Barat. Saat ini saya sedang menempuh pendidikan S1 di TelkomUniversity
+    untuk aplikasi sederhana ini saya mencoba memberikan beberapa Rekomendasi raket untuk
+    kalian yang suka bermain bulu tangkis. Rekomendasi ini hanya opini saya, jadi pilihlah
+    raket yang menurut kalian paling baik. Terimakasih, salam satu lapang.</string>
+    <string name="tahunproduksi">Tahun Produksi : xxxx</string>
+    <string name="Kriteria">Kriteria : XXXXXXXXXXXXXXXXXXXX</string>
+    <string name="share">Share Artikel Ini ?</string>
+    
+    
+    <string-array name="data_name">
+        <item>Li-Ning XP 800</item>
+        <item>Flypower Rio Gold G1</item>
+        <item>Yonex Astrox 88 S Pro</item>
+        <item>Apacs Virtuoso Light</item>
+        <item>Adidas Spieler E Aktiv 3U</item>
+        <item>Mizuno JPX Limited Edition Attack</item>
+        <item>Victor Thruster K F</item>
+        <item>Victor DriveX-9X</item>
+        <item>VICTOR AURASPEED 100X H</item>
+        <item>ALP-SPORT ALP YL 3U</item>
+    </string-array>
+    
+    <string-array name="data_description">
+        <item>Raket ini menampilkan Ginting signature yang pastinya bisa menambah semangat Anda saat bermain, Harganya pun sangat murah sehingga menjadi salah satu produk yang banyak diminati.Meski begitu, spesifikasi raket ini cukup mumpuni untuk dipakai oleh anak sekolah atau untuk bermain santai. Kelebihannya Material terbuat dari aluminium sehingga lebih tahan banting. Kekurangannya Tidak cocok dipakai dalam pertandingan profesional karena bukan raket yang didesain untuk kompetisi</item>
+        <item>Flypower Rio Gold G1 hadir dengan teknologi trapezium frame. Ketajaman struktur trapesium pada frame-nya akan membantu Anda untuk meningkatkan kecepatan ayunan saat bermain.Selain itu, produk ini memiliki bobot yang ringan. Jadi, Anda dapat memukul atau mengembalikan serangan dari musuh dengan baik dan terkontrol. Raket ini sangat ideal untuk pemain badminton dengan gaya bermain menyerang ataupun bertahan. Bagi Anda yang masih pemula juga bisa menggunakan raket bulu tangkis ini.</item>
+        <item>Raket ini memiliki bobot yang ringan sehingga cocok untuk bermain netting. Membuat smash kuat pun bisa karena raket ini mengadopsi material Namd yang kuat di seluruh bodinya. Material tersebut juga dinilai mampu membuat kecepatan kok bertambah hingga 7,1 persen. Raket ini cocok digunakan pemain depan dalam sektor pemain ganda. Anda bisa mengandalkannya untuk menghalau bola netting dari lawan karena ringan ketika diayunkan. Posisi raket ini juga secara cepat bisa langsung lurus dan siap memukul bola tanggung dari lawan</item>
+        <item>Raket bulu tangkis ini memiliki bobot hanya 76 gram saja. Grommets-nya sendiri berjumlah 76 buah dan dapat dipasangi senar dengan maksimum ketegangan 30 lbs. Sementara itu, balance point-nya mencapai 290 mm dengan tipe slight head heavy. Sebagai tambahannya, Apacs menggunakan material terbaik berupa grafit bermodulus tinggi. Material ini akan membuat raket menjadi lebih tahan lama. Bukan hanya itu, High Modulus Graphite dari raket ini juga dapat menghasilkan pukulan dengan kekuatan maksimal.</item>
+        <item>Raket ini terbuat dari bahan smart carbon yang kuat dan fleksibel serta diklaim tahan benturan. Bobotnya pun sangat ringan dengan grip yang slim sehingga nyaman digenggam dan dimainkan pemula. Meski tidak banyak fitur tambahan, produk ini mempunyai akselerasi yang baik. Raket ini juga dapat mendukung permainan Anda baik saat smash, drop shot, maupun defending. Benar-benar produk yang recommended bagi pemain yang baru berkecimpung di dunia bulu tangkis.</item>
+        <item>Mizuno JPX Limited Edition Attack mengombinasikan fitur aero hexagram dengan box frame dari tengah ke ujung raket. Kombinasi tersebut menghasilkan kecepatan, power, dan kontrol ayunan raket yang lebih akurat. Keberadaan box frame juga membuat stabilitas raket terjaga saat melakukan smash full power. Raket ini dibuat dari material Nano PEF yang mampu membuat raket bertahan mengambang di air. Hal itu menjadikan raket ini punya peredam getaran yang baik saat raket menyentuh bola. Dengan begitu, raket ini sangat nyaman ketika dipakai dalam permainan yang mengutamakan power dan speed.</item>
+        <item>salah satu fitur unggulan raket ini adalah struktur pemecah anginnya. Struktur ini mampu mengatasi kelemahan raket tradisional yang umumnya lambat dan lebih berat di kepala. Ada pilihan bobot 3U, 4U, dan 5U yang membuat raket ini terasa begitu ringan diayunkan, bahkan oleh pemula. Selain itu, tarikan senarnya 30–32 lbs yang membuat smash Anda lebih kencang. Dengan raket ini, Anda akan dapat mencapai kecepatan, kekuatan, dan presisi yang luar biasa dalam menyerang.</item>
+        <item>Dengan teknologi Dinamyc Hex dan rangka rebound shield, raket buatan Taiwan ini memiliki elastisitas yang baik. Hasilnya, ayunan jadi lebih mudah dan ringan, terlebih untuk meningkatkan kontinuitas bidikan. Raket ini cocok digunakan oleh pemain yang sudah berpengalaman. Raket DX-9X ini dirancang dengan poros paling kaku di antara semua raket merek Victor. Jadil, Anda bisa menghasilkan pukulan yang solid dan tajam, serta ayunan yang lebih terarah. Greysia Polii dan Apriyani Rahayu memakai raket ini untuk merebut medali emas pada Olimpiade Tokyo 2020.</item>
+        <item>Raket Victor AURASPEED 100X H ini dilengkapi dengan power ring sehingga terasa lebih kaku. Selain itu, raket ini menerapkan teknologi free core yang menjadikan ayunan lebih mulus dan tidak goyang.  Teknologi tersebut juga memberikan pengalaman memukul yang nyaman dan lebih kuat. Karena itu, raket ini sering menjadi andalan para pemain ganda yang memaksimalkan permainan tempo cepat.</item>
+        <item>Raket ini mengambil wujud naga sebagai konsep desainnya yang dibuat dengan teknologi tenun 3D. Hasilnya, Anda dapat melihat motif sisik naga di seluruh bagian frame raket. Selain soal tampilannya, raket ini juga memiliki kekuatan yang lebih tinggi dan ketahanan benturan yang lebih baik. Ditambah penggunaan material full carbon, raket untuk permainan menyerang ini juga jadi lebih ringan dan powerful saat dipakai.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/raket1</item>
+        <item>@drawable/raket2</item>
+        <item>@drawable/raket3</item>
+        <item>@drawable/raket4</item>
+        <item>@drawable/raket5</item>
+        <item>@drawable/raket6</item>
+        <item>@drawable/raket7</item>
+        <item>@drawable/raket8</item>
+        <item>@drawable/raket9</item>
+        <item>@drawable/raket10</item>
+    </integer-array>
+
+    <string-array name="data_harga">
+        <item>Rp277.276</item>
+        <item>Rp529.000</item>
+        <item>Rp2.900.000</item>
+        <item>Rp330.000</item>
+        <item>Rp459.000</item>
+        <item>Rp1.600.000</item>
+        <item>Rp3.500.000</item>
+        <item>Rp2.900.000</item>
+        <item>Rp3.720.000</item>
+        <item>Rp1.896.365</item>
+    </string-array>
+
+    <string-array name="data_tahunproduksi">
+        <item>Tahun : 2017</item>
+        <item>Tahun : 2020</item>
+        <item>Tahun : 2017</item>
+        <item>Tahun : 2018</item>
+        <item>Tahun : 2022</item>
+        <item>Tahun : 2019</item>
+        <item>Tahun : 2017</item>
+        <item>Tahun : 2020</item>
+        <item>Tahun : 2021</item>
+        <item>Tahun : 2019</item>
+    </string-array>
+
+    <string-array name="data_kriteria">
+        <item>Kriteria : Cocok untuk Ganda</item>
+        <item>Kriteria : Cocok untuk pemula</item>
+        <item>Kriteria : Cocok untuk single</item>
+        <item>Kriteria : Cocok untuk Ganda</item>
+        <item>Kriteria : Cocok untuk Ganda</item>
+        <item>Kriteria : Cocok untuk single</item>
+        <item>Kriteria : Cocok untuk Ganda Campuran</item>
+        <item>Kriteria : Cocok untuk single</item>
+        <item>Kriteria : Cocok untuk Ganda</item>
+        <item>Kriteria : Cocok untuk Ganda</item>
+    </string-array>
+
+
+</resources>

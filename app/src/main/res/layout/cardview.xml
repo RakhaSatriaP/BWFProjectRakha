@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview"
+    android:layout_gravity="center"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/fotoDiCardView"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:scaleType="centerCrop"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/avatars"/>
+
+        <TextView
+            android:id="@+id/jenisDicardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintStart_toEndOf="@id/fotoDiCardView"
+            card_view:layout_constraintTop_toTopOf="@id/fotoDiCardView"
+            tools:text="@string/cardJenis"/>
+
+        <TextView
+            android:id="@+id/hargaDiCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="8dp"
+            android:ellipsize="end"
+            android:maxLines="5"
+            android:textColor="@color/black"
+
+            card_view:layout_constraintEnd_toEndOf="@+id/jenisDicardView"
+            card_view:layout_constraintStart_toStartOf="@+id/jenisDicardView"
+            card_view:layout_constraintTop_toBottomOf="@+id/jenisDicardView"
+            card_view:layout_constraintVertical_bias="0.0"
+            tools:text="@string/harga_cardview"/>
+
+        <TextView
+            android:id="@+id/descDiCardView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            tools:text="@string/desc"
+            android:maxLines="3"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            card_view:layout_constraintStart_toStartOf="@+id/hargaDiCardView"
+            card_view:layout_constraintEnd_toEndOf="@+id/hargaDiCardView"
+            card_view:layout_constraintTop_toBottomOf="@+id/hargaDiCardView"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

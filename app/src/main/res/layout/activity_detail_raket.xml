@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".DetailRaket">
+
+    <ImageView
+        android:id="@+id/fotooDiCardView"
+        android:layout_width="332dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/jenissDicardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/fotooDiCardView"
+        app:layout_constraintStart_toStartOf="@+id/fotooDiCardView"
+        app:layout_constraintTop_toBottomOf="@+id/fotooDiCardView"
+        tools:text="@string/cardJenis" />
+
+    <TextView
+        android:id="@+id/hargaaDiCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/jenissDicardView"
+        app:layout_constraintStart_toStartOf="@+id/jenissDicardView"
+        app:layout_constraintTop_toBottomOf="@+id/jenissDicardView"
+        tools:text="@string/harga_cardview" />
+
+    <TextView
+        android:id="@+id/desccDiCardView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        tools:text="@string/descDetail"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hargaaDiCardView"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/tahunnDiCardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/tahunproduksi"
+        android:textColor="#FFFEFE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/desccDiCardView" />
+
+    <TextView
+        android:id="@+id/kriteriaaDicardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/Kriteria"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tahunnDiCardView"
+        app:layout_constraintVertical_bias="0.143" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/btn_share"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/share"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/kriteriaaDicardView"-->
+<!--        app:layout_constraintVertical_bias="0.576" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
